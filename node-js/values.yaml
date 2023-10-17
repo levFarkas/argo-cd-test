@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: public.ecr.aws/l6o1r3c5/nest-demo
+  repository: ghcr.io/levfarkas/nest-js-demo-project
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "0.0.3"
+  tag: "sha256-6517259b479ea607cf9e7bccc6f0ed5c9d0d0ba50887f77d40524f88ecf36775.sig"
 
 imagePullSecrets: []
 nameOverride: ""
