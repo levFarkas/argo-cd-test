@@ -8,7 +8,7 @@ image:
   repository: ghcr.io/levfarkas/nest-js-demo-project
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.1.0"
+  tag: "v1.1.0@sha256:913b05481239af062001c8f78ee60e50e8127d3ff3927a104d009a90801e215a"
 
 imagePullSecrets: []
 nameOverride: ""
